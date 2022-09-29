@@ -1,0 +1,25 @@
+{
+  "medicinesupports": [
+    {
+      "medicineName": "Panadol",
+      "does": "1 Cup",
+      "description": "Panadol Children 5-12 Years Suspension Fever & Pain Relief Strawberry Flavour 200mL",
+      "frequency": "Every 6H when needed",
+      "id": 1
+    },
+    {
+      "medicineName": "Betadine",
+      "does": "1-20ml",
+      "description": "Betadine Sore Throat Gargle Ready To Use 120mL",
+      "frequency": "every 3-4H ",
+      "id": 2
+    },
+    {
+      "medicineName": "Multivitamin",
+      "does": "2 pack",
+      "description": "Elevit Pregnancy Multivitamin Tablets 30 pack (30 days)",
+      "frequency": "Every morning",
+      "id": 3
+    }
+  ]
+}
