@@ -25,4 +25,13 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  const isLogin = window.localStorage.access_token ? true : false;
+  if (to.path === "/login" || to.path === "/register") {
+    next();
+  } else {
+    isLogin ? next() : next("/login")
+  }
+})
+
 export default router
